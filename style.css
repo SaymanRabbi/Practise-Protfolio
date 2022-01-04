@@ -1,0 +1,79 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: inherit;
+    font-family: 'Raleway', sans-serif;
+}
+/* -----Defult font Style------- */
+.title{
+font-size: 4.5rem;
+font-weight: 900;
+height: 8rem;
+}
+.sub-title{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.detail-text{
+    color: dimgray;
+    margin-bottom: 2.5rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: start;
+}
+/* --------defult division style---------- */
+.half-width{
+    width: 45%;
+}
+   /* ---display flex---- */
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 13rem 0rem 10rem;
+    height: 60rem;
+}
+/* ------img width------- */
+.img-width{
+    width: 54rem;
+    background-size: cover;
+}
+/* ------padding for top------ */
+.p-top{
+    padding-top: 5rem;
+}
+/* -----color org--- */
+.color-org{
+    color: orange;
+}
+/* ------- top banner------ */
+.top-banner{
+background-image: url(imeges/top-banner.png);
+background-repeat: no-repeat;
+}
+/* -------button------ */
+.button{
+    text-decoration: none;
+    width: 14rem;
+    padding: 1rem 0rem;
+    background-image: linear-gradient(tomato,orange);
+    display: block;
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.button-width{
+    width: 20rem;
+} 
+/* -------dream are-------- */
+.dream-area-banner{
+    background-image: url(imeges/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
